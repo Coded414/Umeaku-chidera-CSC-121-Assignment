@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Maduka University | Digital Library</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<header>
+
+    <div class="logo-area">
+
+        <img src="images/logo.png" alt="Maduka University Logo">
+
+        <div>
+
+            <h2>Maduka University</h2>
+
+            <p>Excellence • Knowledge • Character</p>
+
+        </div>
+
+    </div>
+
+
+    <nav>
+
+        <a href="index.html">Home</a>
+
+        <a href="staff.html">Staff</a>
+
+        <a href="rules.html">Rules & Regulations</a>
+
+        <a href="digital.html" class="active">Digital Library</a>
+
+        <a href="contact.html">Contact</a>
+
+    </nav>
+
+
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+</header>
+
+
+
+<section class="page-banner">
+
+    <h1>Digital Library</h1>
+
+    <p>
+        Access academic resources and digital learning materials.
+    </p>
+
+</section>
+
+
+
+<section class="section">
+
+
+    <div class="section-title">
+
+        <span>ONLINE RESOURCES</span>
+
+        <h2>Digital Library</h2>
+
+        <p>
+            Explore resources that support learning, research and academic development.
+        </p>
+
+    </div>
+
+
+
+    <div class="library-search">
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search books, journals or resources..."
+        >
+
+        <button onclick="searchLibrary()">Search</button>
+
+    </div>
+
+
+
+    <div class="library-grid">
+
+
+        <div class="library-card">
+
+            <div class="library-icon">📚</div>
+
+            <h3>Digital Books</h3>
+
+            <p>
+                Access electronic books and academic publications.
+            </p>
+
+            <button onclick="showMessage('Digital Books')">
+                Access Resources
+            </button>
+
+        </div>
+
+
+
+        <div class="library-card">
+
+            <div class="library-icon">📄</div>
+
+            <h3>Research Papers</h3>
+
+            <p>
+                Find academic research papers and publications.
+            </p>
+
+            <button onclick="showMessage('Research Papers')">
+                View Papers
+            </button>
+
+        </div>
+
+
+
+        <div class="library-card">
+
+            <div class="library-icon">📰</div>
+
+            <h3>Journals</h3>
+
+            <p>
+                Explore academic journals from different disciplines.
+            </p>
+
+            <button onclick="showMessage('Academic Journals')">
+                Browse Journals
+            </button>
+
+        </div>
+
+
+
+        <div class="library-card">
+
+            <div class="library-icon">🎓</div>
+
+            <h3>Study Resources</h3>
+
+            <p>
+                Useful learning materials for students.
+            </p>
+
+            <button onclick="showMessage('Study Resources')">
+                View Resources
+            </button>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<footer>
+
+    <div class="footer-content">
+
+        <div>
+
+            <h2>Maduka University</h2>
+
+            <p>
+                Excellence in education, innovation and character.
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <h3>Quick Links</h3>
+
+            <a href="index.html">Home</a>
+            <a href="staff.html">Staff</a>
+            <a href="rules.html">Rules & Regulations</a>
+            <a href="digital.html">Digital Library</a>
+            <a href="contact.html">Contact</a>
+
+        </div>
+
+
+        <div>
+
+            <h3>Contact</h3>
+
+            <p>📍 Nigeria</p>
+            <p>📧 info@madukauniversity.edu.ng</p>
+            <p>📞 +234 800 000 0000</p>
+
+        </div>
+
+    </div>
+
+
+    <div class="copyright">
+
+        © 2026 Maduka University. All Rights Reserved.
+
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
